@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 15px;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #f78d8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 118px;
+    width: 100%;
+    padding: 40px 0 40px 0;
+}
+
+.info{
+    text-align: center;
+    background-color: #f78d8d;
+}
+
+.hobbies{
+    display: flex;
+}
+
+h2{
+    margin-top:20px ;
+    text-align:center;
+}
+
+.coluna1{
+    position: relative;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    background-color: #27c6ce47; /* Cor de fundo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rock{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.rock:hover {
+    content: url('img/rocky.gif');
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    height: 52%;
+    z-index: 1;
+  }
+
+.coluna2{
+    flex:1;
+    background-color: #ed323247; /* Cor de fundo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.coluna3{
+    flex:1;
+    background-color: #e3e91f5d; /* Cor de fundo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.coluna4{
+    flex:1;  
+    justify-content: center;
+    align-items: center;
+    background-color: #4b28e694; /* Cor de fundo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.berserk{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.coluna5{
+    flex:1;  
+    background-color: #2beb2447; /* Cor de fundo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.coluna6{
+    flex:1;  
+    background-color: #242be847; /* Cor de fundo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.namo{
+    background-image: url('img/core.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.namo img{
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.escola{
+    max-width: 50%;
+    max-height: 50%;
+    margin-bottom:-20px;
+}
+
+.fim{
+    display: flex;
+}
+
